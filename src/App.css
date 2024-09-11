@@ -87,6 +87,22 @@
     padding: 10px;
   }
 }
+@media screen and (max-width: 320px) {
+  .logo1, .logo2 {
+    width: 40px;
+  }
+
+  .text-container {
+    gap: 50px;
+    margin-left:135px;
+  }
+
+  .centered-text {
+    margin-top: -70px;
+    font-size: 1em;
+    padding: 10px;
+  }
+}
 
 
 

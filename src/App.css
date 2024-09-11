@@ -47,6 +47,46 @@
   padding: 20px;
   font-size: 1.5em;
 }
+/* الأنماط الحالية تبقى كما هي */
+
+/* إضافة media query للشاشات الصغيرة */
+@media screen and (max-width: 768px) {
+  .logo-container {
+    padding: 10px;
+  }
+
+  .logo1, .logo2 {
+    width: 50px;
+  }
+
+  .text-container {
+    gap: 4rem;
+  }
+
+  .centered-text {
+    margin-top: -70px;
+    font-size: 1.2em;
+    padding: 15px;
+  }
+}
+
+/* للشاشات الأصغر مثل الهواتف */
+@media screen and (max-width: 480px) {
+  .logo1, .logo2 {
+    width: 40px;
+  }
+
+  .text-container {
+    gap: 2rem;
+  }
+
+  .centered-text {
+    margin-top: -50px;
+    font-size: 1em;
+    padding: 10px;
+  }
+}
+
 
 
 

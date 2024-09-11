@@ -14,6 +14,9 @@ function App() {
       <div className="text-container">
       <h1 className='centered-text'>Class 2024 - 11 oct 6Am</h1>
       <div className='centered-text'>اسرة مارمينا الهندسية</div>
+
+      <br />
+      <div className='centered-text'>Sooooooon</div>
       </div>
       <CountDown/>
     </div>

@@ -77,11 +77,12 @@
   }
 
   .text-container {
-    gap: 2rem;
+    gap: 45px;
+    margin-left:125px;
   }
 
   .centered-text {
-    margin-top: -50px;
+    margin-top: -60px;
     font-size: 1em;
     padding: 10px;
   }

@@ -4,22 +4,22 @@
 
 .logo-container {
   background-color: rgba(255, 255, 255, 0.8);
-  padding: 15px;
+  padding: 0.9rem;
   display: inline-block;
   border-radius: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .logo1 {
-  width: 70px;
+  width: 4.4rem;
   height: auto;
   margin: 0 8px;
   transition: transform 0.3s ease;
 }
 .logo2 {
-  width: 100px;
+  width: 6.25rem;
   height: auto;
-  margin: 0 8px;
+  margin: 0 0.5rem;
   transition: transform 0.3s ease;
 }
 
@@ -40,23 +40,23 @@
 }
 
 .centered-text {
-  margin-top: -140px; /* قيمة سالبة لرفع النص أكثر، يمكنك تعديلها حسب الحاجة */
+  margin-top: -8.75rem; /* قيمة سالبة لرفع النص أكثر، يمكنك تعديلها حسب الحاجة */
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
-  padding: 20px;
+  border-radius: 1.25rem;
+  padding: 1.25rem;
   font-size: 1.5em;
 }
 /* الأنماط الحالية تبقى كما هي */
 
-/* إضافة media query للشاشات الصغيرة */
-@media screen and (max-width: 768px) {
+
+@media (min-width: 1025px) {
   .logo-container {
-    padding: 10px;
+    padding: 0.625rem;
   }
 
   .logo1, .logo2 {
-    width: 50px;
+    width: 3.125rem;
   }
 
   .text-container {
@@ -70,38 +70,56 @@
   }
 }
 
-/* للشاشات الأصغر مثل الهواتف */
-@media screen and (max-width: 480px) {
+
+@media (min-width: 481px) and (max-width: 1024px) {
   .logo1, .logo2 {
     width: 40px;
+  
   }
 
   .text-container {
     gap: 45px;
-    margin-left:125px;
-  }
-
-  .centered-text {
-    margin-top: -60px;
-    font-size: 1em;
-    padding: 10px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .logo1, .logo2 {
-    width: 40px;
-  }
-
-  .text-container {
-    gap: 50px;
-    margin-left:135px;
+    margin-left:7rem;
   }
 
   .centered-text {
     margin-top: -70px;
     font-size: 1em;
-    padding: 10px;
+    padding: 1.6rem;
+
   }
+}
+.centeredCountDown{
+  margin-top: -70px;
+  font-size: 1em;
+  padding: 1.6rem;
+  margin-right: 7rem;
+}
+
+@media (max-width: 480px) {
+  .logo1, .logo2 {
+    width: 2rem;
+    
+  }
+
+  .text-container {
+    gap: 50px;
+    margin-left:1.5rem;
+  }
+
+  .centered-text {
+    margin-top: -40px;
+    font-size: 0.9rem;
+    padding: 8px;
+    margin-left: 5.5rem;
+  }
+  .centeredCountDown{
+    margin-top: -70px;
+    font-size: 1em;
+    padding: 1.6rem;
+    margin-right: 2rem;
+  }
+  
 }
 
 
